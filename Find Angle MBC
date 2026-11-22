@@ -1,0 +1,6 @@
+import math
+ab = float(input().strip())
+bc = float(input().strip())
+angle_rad = math.atan(ab/bc)
+angle_deg = round(math.degrees(angle_rad))
+print(f"{angle_deg}\u00b0")
